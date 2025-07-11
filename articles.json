@@ -1,0 +1,26 @@
+[
+
+
+
+
+
+
+
+ {
+    "title": "Test",
+    "snippet": "Test Article",
+    "url": "test.html"
+  },
+
+
+  {
+    "title": "The Future of Tech",
+    "snippet": "A quick look at what’s coming next in AI and robotics...",
+    "url": "futech.html"
+  },
+  {
+    "title": "Double Homicide At Seshego",
+    "snippet": "Two people were found dead at zone 6, Seshego",
+    "url": "Seshego.html"
+  },
+]

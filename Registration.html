@@ -1,0 +1,67 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Registration.css" />
+
+<title>Registration</title>
+</head>
+  
+<!-- >Name, Surname, Student No, Contact, Module Code, Email, Password, Confirm Password.<-->
+<h1>REGISTRATION</h1>
+<form method="post" action="http://localhost/phpmyadmin/index.php?route=/database/structure&db=seventwelve">
+<fieldset>
+  <legend>Full Name(s)</legend>
+  <input type="text" id="Names" name="Names">
+  </fieldset>
+  
+  <fieldset>
+  <legend>Surname</legend>
+    <input type="text" id="Surname" name="Surname">
+  </fieldset>
+  
+  <fieldset>
+  <legend>ID/Passport No.</legend>
+    <input type="text" id="Identity" name="Identity">
+  </fieldset>
+  
+  <fieldset>
+  <legend>Contact No.</legend>
+
+    <input type="tel" id="Contact" name="Contact"
+     pattern="[0]{1}[6-8]{1}[0-9]{8}"> 
+  </fieldset>
+  
+  <fieldset>
+  <legend>Username</legend>
+    <input type="text" id="Username" name="Username">
+  </fieldset>
+  
+  <fieldset>
+  <legend>Email</legend>
+    <input type="email" id="Email" name="Email">
+  </fieldset>
+  
+  <fieldset>
+  <legend>Password</legend>
+    <input type="Password" id="Password" name="Passsword"
+           minlength="8" maxlength="12"> 
+  </fieldset> 
+  
+  <fieldset>
+  <legend>Confirm Password</legend>
+    <input type="password" id="Password" name="Password"
+      minlength="8" maxlength="12">
+  </fieldset>
+      <br>
+   
+<Submit>
+    <input type="Submit" id="Register" name="Register">
+      </Submit>
+</form>   
+        
