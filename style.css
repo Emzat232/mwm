@@ -9,7 +9,8 @@ background-color: rgb(231, 221, 255);}
   background-color: rgb(212, 195, 254);
   margin: 10%;
   border-radius: 10px;
-text-align: center;}
+text-align: center;
+overflow: auto;}
 
 p1 {font-weight: bold;
    font-size: 20px;}
@@ -29,6 +30,12 @@ bottom: 5px}
 .paragraph {font-size: 25px;
 width: 90%;
 margin-left: 5%;}
+
+@media (max-width: 800px) {
+	.paragraph, .abouthead {
+	font-size: 13px;
+	}
+}
 
 
 .abouthead {background-color: white;
