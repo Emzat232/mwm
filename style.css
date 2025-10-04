@@ -32,9 +32,13 @@ width: 90%;
 margin-left: 5%;}
 
 @media (max-width: 800px) {
-	.paragraph, .abouthead {
+	.abouthead {
 	font-size: 13px;
-	}
+	};
+	.paragraph {font-size: 30px;
+			   height: 120px;
+			   overflow: scroll};
+	
 }
 
 
@@ -71,3 +75,4 @@ article {
   border-bottom: 1px solid rgb(243, 238, 255);
   text-decoration: none;
 }
+
