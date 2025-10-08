@@ -33,9 +33,7 @@ position: **fixed**;
 
 .paragraph {font-size: 25px;
 width: 90%;
-margin-left: 5%;
-height: 250px;
-overflow: scroll}
+margin-left: 5%;}
 
 .abouthead {background-color: white;
 border-radius: 10px;
@@ -84,6 +82,7 @@ article {
 	.footer {text-decoration: bold;}
 	
 }
+
 
 
 
