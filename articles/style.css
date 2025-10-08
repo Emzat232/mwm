@@ -24,8 +24,10 @@ p1 {font-weight: bold;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 width: 97%;
-left: 1.5px;
-transform: translateY(-10px);}
+transform: translateY(0px);
+position: **fixed**;
+  bottom: 0;
+}
 
 
 .paragraph {font-size: 25px;
