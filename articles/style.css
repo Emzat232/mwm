@@ -5,7 +5,8 @@ text-align: center;}
 
 html {font-family: "Imprint MT Shadow";
 background-color: rgb(231, 221, 255);
-display: flex}
+display: flex;
+font-size: 32px}
 
 .container {width: 80%;
   background-color: rgb(212, 195, 254);
