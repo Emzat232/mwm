@@ -4,7 +4,8 @@
 text-align: center;}       
 
 html {font-family: "Imprint MT Shadow";
-background-color: rgb(231, 221, 255);}
+background-color: rgb(231, 221, 255);
+display: flex}
 
 .container {width: 80%;
   background-color: rgb(212, 195, 254);
@@ -26,7 +27,6 @@ border-top-right-radius: 10px;
 width: 97%;
 transform: translateY(0px);
 position: **fixed**;
-bottom: 0;
 }
 
 
@@ -89,8 +89,11 @@ article {
 			   overflow: scroll}
   
   	.links{font-weight: bold;
-		   font-size: 60px};
+  height: 40px;}
+  
+  #link {display: flex;
+justify-content: center;
+align-items: center;}
+  
 }
 	
-
-
